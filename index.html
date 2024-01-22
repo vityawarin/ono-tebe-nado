@@ -10,46 +10,47 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="header grid__container">    
-        <ul class="header__ul">
-          <li class="li__no__circle">
-            <a class="glavnaya">главная </a>
+    <header class="header grid__container">
+      <nav class="header_menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item_no-bullit">
+            <a class="header__link_active">главная </a>
           </li>
           <li>
-            <a class="" href="index.html">посмотреть лоты</a>
+            <a class="header__contacts" href="index.html">посмотреть лоты</a>
           </li>
           <li>
-            <a class="" href="index.html">об аукционе</a>
+            <a class="header__contacts" href="index.html">об аукционе</a>
           </li>
         </ul>
+      </nav>
       <img class="header__logo"
-      src="./images/logo-black.svg"
+      src="./images/logo-black.svg" alt="черное лого"
       />
-    </a>
     <address class="adress__fonts">
-      <a class="telephone__style" href="tel:+99995555555">+9 999 555 5555 <br></a>
-      <a class="mail__style" href="mailto:info@sobaka.ge">info@sobaka.ge <br></a>
-      <a class="address">наб. Принсенграхт 263- <br>265, Амстердам</a>
+      <a class="header__contacts" href="tel:+99995555555">+9 999 555 5555 <br></a>
+      <a class="header__contacts" href="mailto:info@sobaka.ge">info@sobaka.ge <br></a>
+      <a class="address"><p>наб. Принсенграхт 263- <br>265, Амстердам</p></a>
     </address>
     </header>
     <main>
     <section class="cover">
-    <div class="overlay"> </div>
-    <section>
+    <div class="overlay"></div>
+    <div>
         <h1 class="cover__title">
           <span class="aligned__text">
             о<span class="letter__spacing__extended">но</span>
-           <span class="aligned__text__center">те<span class="letter__spacing__extended">бе</span>
-          <span class="aligned__text__end">
+            <span class="aligned__text__center">те<span class="letter__spacing__extended">бе</span></span>
+            <span class="aligned__text__end">
             <span class="letter__spacing__extended">н</span>ад<span class="no__letter__spacing">о</span>
           </span>
-           </span>
-          </h1>
+          </span>
+        </h1>
           <div class="cover__description">
           <h2 class="cover__description__text">Аукцион вещей, в которые никто не верил</h2>
           <button class="bet__button">сделать ставку</button>
           </div>
-    </section>
+        </div>
     </section>
     <section class="lots">
      <h2 class="lots__heading">Лоты</h2>
@@ -90,47 +91,44 @@
     <section class="about">
       <div class="about__logo">
         <img class="about__logo__image"
-      src="./images/logo-white.svg"
-      />
+      src="./images/logo-white.svg" alt="лого"/>
       </div>
       <div>
-        <h3 class="about__title">Об аукционе</h3>
-        <p class="about__text p__space">Здесь вы не встретите очередное пафосное собрание невероятно <br> дорогого антиквариата.
-           Наши лоты вообще не должны были попасть <br> ни на один аукцион.
-           Потому что кому нужен дневник девочки- <br> подростка или картина, которую может нарисовать даже ребёнок? <br>
-            Кому нужны все эти странные вещи, созданные любителями?</p>
-            <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие <br> своё время.
-                В пух и прах растерзанные критиками. Непринятые и <br> непонятые. Когда-то они казались просто неудачными.
-              Но, несмотря <br> на критику, кажущуюся простоту или сложность, сейчас без этих лотов <br> невозможно представить современную культуру.
-               Когда в эти вещи не <br> верил никто, продолжали верить их создатели. И сейчас эти лоты <br> стали культовыми. </p>    
+        <h2 class="about__title">Об аукционе</h2>
+        <div class="gap"><p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
+           Наши лоты вообще не должны были попасть ни на один аукцион.
+           Потому что кому нужен дневник девочки-  подростка или картина, которую может нарисовать даже ребёнок?
+            Кому нужны все эти странные вещи, созданные любителями?
+            <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время.
+                В пух и прах растерзанные критиками. Непринятые и  непонятые. Когда-то они казались просто неудачными.
+              Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру.
+               Когда в эти вещи не  верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
+            </div>  
       </div>
       </section>
-    </section>
     </main>
     <footer class="footer">
       <address class="adress__fonts">
-        <a class="telephone__style" href="tel:+99995555555">+9 999 555 5555 <br></a>
-        <a class="mail__style" href="mailto:info@sobaka.ge">info@sobaka.ge <br></a>
-        <a class="address">наб. Принсенграхт 263- <br>265, Амстердам</a>
+        <a class="header__contacts" href="tel:+99995555555">+9 999 555 5555 <br></a>
+        <a class="header__contacts" href="mailto:info@sobaka.ge">info@sobaka.ge <br></a>
+        <a class="address"><p>наб. Принсенграхт 263- <br>265, Амстердам</p></a>
       </address>
       <nav>
-        <ul class="footer__menu__list">
-          <li class="footer__menu__list__item">
+        <ul class="footer__menu__list footer__menu__list__item">
             <li><a href="#" class="footer__menu__link__active">главная</a></li>
-            <li><a href="#" class="footer__menu__link">посмотреть лоты</a></li>
-            <li><a href="#" class="footer__menu__link">об аукционе</a></li>
-          </li>
+            <li><a class="header__contacts footer__menu__link" href="#">посмотреть лоты</a></li>
+            <li><a class="header__contacts footer__menu__link" href="#">об аукционе</a></li>
         </ul>
       </nav>
       <ul class="footer__social__list">
+          <li class="footer__social__list__item">
+          <a href="https://www.youtube.com/" target="_blank"><img src="./images/yt.svg" alt="YouTube"/></a>
+          </li> 
         <li class="footer__social__list__item">
-          <a href="https://www.youtube.com/" target="_blank"><img class="" src="./images/yt.svg" alt="YouTube"/></a>
+          <a href="https://www.vk.com/" target="_blank"><img src="./images/vk.svg" alt="vkontakte"/></a>
         </li>
         <li class="footer__social__list__item">
-          <a href="https://www.vk.com/" target="_blank"><img class="" src="./images/vk.svg" alt="vkontakte"/></a>
-        </li>
-        <li class="footer__social__list__item">
-          <a href="https://www.pinterest.com/" target="_blank"><img class="" src="./images/pinterest.svg" alt="pinterest"/></a>
+          <a href="https://www.pinterest.com/" target="_blank"><img src="./images/pinterest.svg" alt="pinterest"/></a>
         </li>
       </ul>
     </footer>
