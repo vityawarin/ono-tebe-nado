@@ -156,7 +156,7 @@
   line-height: normal;
   text-transform: uppercase;
   width: 256px;
-  height: 51px;
+  padding: 14px 32px 11px 31px;
   background-color: transparent;
   border: 1px solid #fff;
   z-index: 1;
